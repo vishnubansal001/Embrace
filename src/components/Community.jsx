@@ -16,7 +16,7 @@ const Community = () => {
       <div className="flex items-center mt-10">
         <div className="w-[90%] mx-auto flex flex-col items-start">
           <div className="flex flex-col text-black gap-4 mb-12">
-            <h1 className="lg:text-5xl md:text-4xl sm:text-3xl text-3xl font-semibold">
+            <h1 className="lg:text-6xl md:text-5xl sm:text-3xl text-4xl font-semibold">
               Companies
             </h1>
             <h1 className="lg:text-5xl md:text-4xl sm:text-3xl text-3xl font-semibold">
