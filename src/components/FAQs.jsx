@@ -17,8 +17,8 @@ const FAQs = () => {
   return (
     <>
       <div className="flex items-center justify-center mt-10 mb-5">
-        <div className="flex w-[90%] items-center">
-          <div className="md:w-[50%] flex flex-col justify-start">
+        <div className="flex md:flex-row flex-col w-[90%] items-center">
+          <div className="md:w-[50%] w-[100%] flex flex-col justify-start md:mb-1 mb-8">
             <div className="h-[0.1vh] bg-black/30"></div>
             <div className="flex justify-between items-center py-4">
               <p>How do i sign up for the project?</p>
