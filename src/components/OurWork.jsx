@@ -8,11 +8,11 @@ const OurWork = () => {
     <>
       <div className="flex items-center justify-center mt-20">
         <div className="w-[90%] flex flex-col mx-auto items-center justify-center">
-          <div className="flex flex-col items-center justify-center text-center">
+          <div className="flex flex-col md:items-center justify-center items-start md:justify-center md:text-center">
             <h1 className="text-black md:text-4xl text-2xl font-semibold">
               Our Work
             </h1>
-            <p className="md:w-[70%] w-[90%] text-gray-600 mt-3 mb-10">
+            <p className="md:w-[70%] text-gray-600 mt-3 mb-10">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi
               repellendus deleniti ullam. Aperiam iure vero possimus voluptatem
               perferendis facilis tempore.
@@ -41,7 +41,7 @@ const OurWork = () => {
               </p>
             </div>
           </div>
-          <div className="border-none bg-gradient-to-br from-blue-500 to-blue-400 shadow-lg shadow-blue-400 mb-10 hover:scale-110 duration-300 w-[10vw] text-center rounded-full py-3 px-6 md:mt-10 mt-5">
+          <div className="border-none bg-gradient-to-br from-blue-500 to-blue-400 shadow-lg shadow-blue-400 mb-10 hover:scale-110 duration-300 md:w-[10vw] text-center rounded-full py-3 px-6 md:mt-10 mt-5">
             <button type="button" className="text-white">
               See More
             </button>
