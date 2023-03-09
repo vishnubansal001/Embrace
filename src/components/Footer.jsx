@@ -23,20 +23,20 @@ const Footer = () => {
               </button>
             </div>
           </div>
-          <div className="flex flex-row gap-20">
-            <ul className="flex flex-col gap-5">
+          <div className="grid md:grid-cols-3 grid-cols-2 md:gap-20 gap-12">
+            <ul className="flex flex-col md:gap-5 md:text-base text-xs gap-2">
               <li>Work With Us</li>
               <li>Advertise With Us</li>
               <li>Support Us</li>
               <li>Business Advices</li>
             </ul>
-            <ul className="flex flex-col gap-5">
+            <ul className="flex flex-col md:gap-5 md:text-base text-xs gap-2">
               <li>Private Coaching</li>
               <li>Our Work</li>
               <li>Our Commitment</li>
               <li>Our Team</li>
             </ul>
-            <ul className="flex flex-col gap-5">
+            <ul className="flex flex-col md:gap-5 md:text-base text-xs gap-2">
               <li>About Us</li>
               <li>FAQs</li>
               <li>Report a Bug</li>
