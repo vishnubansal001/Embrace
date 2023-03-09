@@ -5,3 +5,5 @@ export {default as Commitments} from './Commitments.jsx';
 export {default as Working} from './Working.jsx';
 export {default as OurWork} from './OurWork.jsx';
 export {default as Journey} from './Journey.jsx';
+export {default as OurTeam} from './OurTeam.jsx';
+export {default as Footer} from './Footer.jsx';
