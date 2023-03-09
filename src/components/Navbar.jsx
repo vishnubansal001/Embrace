@@ -4,7 +4,7 @@ import embrace from "../assests/embrace.svg";
 const Navbar = () => {
   const [navState,setNaveState] = useState(false);
   const onNavScroll = () => {
-    if(window.scrollY > 180) {
+    if(window.scrollY > 30) {
       setNaveState(true);
     }
     else{
@@ -19,7 +19,7 @@ const Navbar = () => {
   },[])
   return (
     <>
-      <div className="flex flex-row items-center justify-center w-full mt-4">
+      <div className={`nav-default ${navState && 'nav-sticky'}`}>
         <div className="flex flex-row items-center w-[90%] mx-auto justify-between">
           <div className="flex items-center gap-10">
             <div>
