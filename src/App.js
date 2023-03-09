@@ -1,6 +1,13 @@
+import { useEffect, useState } from "react";
 import { Commitments, Community, Hero, Journey, Navbar, OurWork, Working } from "./components";
 
 function App() {
+  useEffect(() => {
+    document.body.classList.add('cursor-none');
+    return () => {
+      document.body.classList.remove('cursor-none');
+    };
+  }, []);
   return (
     <>
       <Navbar/>

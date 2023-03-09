@@ -1,10 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import embrace from "../assests/embrace.svg";
 
 const Navbar = () => {
+  const [navState,setNaveState] = useState(false);
+  const onNavScroll = () => {
+    if(window.scrollY > 180) {
+      setNaveState(true);
+    }
+    else{
+      setNaveState(false);
+    }
+  };
+  useEffect(() => {
+    window.addEventListener('scroll',onNavScroll);
+    return () => {
+      window.removeEventListener('scroll',onNavScroll);
+    }
+  },[])
   return (
     <>
-      <div className="flex flex-row items-center w-full mt-4">
+      <div className="flex flex-row items-center justify-center w-full mt-4">
         <div className="flex flex-row items-center w-[90%] mx-auto justify-between">
           <div className="flex items-center gap-10">
             <div>

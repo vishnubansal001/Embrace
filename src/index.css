@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body::-webkit-scrollbar {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(113, 200, 247) rgb(66, 212, 245);
+}
+body::-webkit-scrollbar {
+  @apply w-1.5;
+}
+body::-webkit-scrollbar-track {
+  @apply bg-gradient-to-b from-slate-100 to-gray-100;
+}
+body::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-gradient-to-tr from-blue-500 to-blue-500;
+}
