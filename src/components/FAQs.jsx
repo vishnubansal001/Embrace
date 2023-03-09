@@ -26,7 +26,9 @@ const FAQs = () => {
                 <img
                   src={plus}
                   alt=""
-                  className={`hover:scale-110 transition-all duration-500 cursor-none ${btn1 && "rotate-45"}`}
+                  className={`hover:scale-110 transition-all duration-500 cursor-none ${
+                    btn1 && "rotate-45"
+                  }`}
                   onClick={handleClick1}
                 />
               </button>
@@ -47,7 +49,9 @@ const FAQs = () => {
                 <img
                   src={plus}
                   alt=""
-                  className={`hover:scale-110 transition-all duration-500 cursor-none ${btn2 && "rotate-45"}`}
+                  className={`hover:scale-110 transition-all duration-500 cursor-none ${
+                    btn2 && "rotate-45"
+                  }`}
                   onClick={handleClick2}
                 />
               </button>
@@ -69,7 +73,9 @@ const FAQs = () => {
                 <img
                   src={plus}
                   alt=""
-                  className={`hover:scale-110 transition-all duration-500 cursor-none ${btn3 && "rotate-45"}`}
+                  className={`hover:scale-110 transition-all duration-500 cursor-none ${
+                    btn3 && "rotate-45"
+                  }`}
                   onClick={handleClick3}
                 />
               </button>
@@ -82,11 +88,15 @@ const FAQs = () => {
                 quas cum itaque culpa ipsum quae saepe ut delectus unde. Beatae!
               </p>
             </div>
-            <div className={`h-[0.1vh] bg-black/30 ${btn3 ? "" : "hidden"}`}></div>
+            <div
+              className={`h-[0.1vh] bg-black/30 ${btn3 ? "" : "hidden"}`}
+            ></div>
           </div>
           <div className="md:w-[40%] mx-auto">
             <div className="flex flex-col gap-6">
-              <h1 className="md:text-4xl text-2xl font-semibold">How We Can Help You?</h1>
+              <h1 className="md:text-4xl text-2xl font-semibold">
+                How We Can Help You?
+              </h1>
               <p className="text-gray-600">
                 Follow our Newsletter. We will regularly update our latest
                 project and availability.
@@ -104,7 +114,9 @@ const FAQs = () => {
                   Lets Talk
                 </button>
               </form>
-              <a href="/" className="cursor-none text-blue-500 underline" >More FAQ {" ->"}</a>
+              <a href="/" className="cursor-none text-blue-500 underline">
+                More FAQ {" ->"}
+              </a>
             </div>
           </div>
         </div>
