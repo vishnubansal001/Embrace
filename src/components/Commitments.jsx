@@ -6,7 +6,7 @@ const Commitments = () => {
       <div className="w-full mt-20">
         <div className="md:w-[90%] w-[80%] mx-auto flex md:flex-row flex-col-reverse items-center justify-between md:gap-20 gap-10">
           <div className="grid grid-cols-2 gap-20 md:w-[50%]">
-            <div className="flex items-start flex-col gap-">
+            <div className="flex items-start flex-col gap-1">
               <h1 className="lg:text-6xl md:text-5xl sm:text-4xl text-3xl font-mono font-semibold">
                 245%
               </h1>
@@ -17,7 +17,7 @@ const Commitments = () => {
                 the brand
               </p>
             </div>
-            <div className="flex items-start flex-col gap-">
+            <div className="flex items-start flex-col gap-1">
               <h1 className="lg:text-6xl md:text-5xl sm:text-4xl text-3xl font-mono font-semibold">
                 130K+
               </h1>
@@ -28,7 +28,7 @@ const Commitments = () => {
                 across platform
               </p>
             </div>
-            <div className="flex items-start flex-col gap-">
+            <div className="flex items-start flex-col gap-1">
               <h1 className="lg:text-6xl md:text-5xl sm:text-4xl text-3xl font-mono font-semibold">
                 50+
               </h1>
@@ -36,7 +36,7 @@ const Commitments = () => {
                 Brands work with us
               </p>
             </div>
-            <div className="flex items-start flex-col gap-">
+            <div className="flex items-start flex-col gap-1">
               <h1 className="lg:text-6xl md:text-5xl sm:text-4xl text-3xl font-mono font-semibold">
                 24+
               </h1>
