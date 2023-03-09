@@ -4,7 +4,7 @@ import people from "../assests/people.png";
 const Hero = () => {
   return (
     <>
-      <div className="w-full flex flex-row items-center mt-6">
+      <div className="w-full flex flex-row items-center md:mt-6 mt-14">
         <div className="md:w-[95%] w-[90%] mx-auto flex flex-col md:flex-row items-center justify-center">
           <div className="flex flex-col items-start md:w-[43%] gap-[3rem] md:mb-0 mb-7">
             <div className="flex flex-col gap-5">
