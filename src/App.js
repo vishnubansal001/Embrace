@@ -1,7 +1,8 @@
-import { useEffect, useState } from "react";
+import { useEffect} from "react";
 import {
   Commitments,
   Community,
+  FAQs,
   Footer,
   Hero,
   Journey,
@@ -29,6 +30,7 @@ function App() {
         <OurWork />
         <Journey />
         <OurTeam />
+        <FAQs/>
       </main>
       <Footer />
     </>

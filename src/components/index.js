@@ -7,3 +7,4 @@ export {default as OurWork} from './OurWork.jsx';
 export {default as Journey} from './Journey.jsx';
 export {default as OurTeam} from './OurTeam.jsx';
 export {default as Footer} from './Footer.jsx';
+export {default as FAQs} from './FAQs.jsx';
