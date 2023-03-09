@@ -10,6 +10,7 @@ import {
   OurTeam,
   OurWork,
   Working,
+  YourJourney,
 } from "./components";
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <OurWork />
         <Journey />
         <OurTeam />
+        <YourJourney/>
         <FAQs/>
       </main>
       <Footer />
