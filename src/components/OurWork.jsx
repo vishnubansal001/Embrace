@@ -41,8 +41,8 @@ const OurWork = () => {
               </p>
             </div>
           </div>
-          <div className="border-none bg-gradient-to-br from-blue-500 to-blue-400 shadow-lg shadow-blue-400 mb-10 hover:scale-110 duration-300 md:w-[10vw] text-center rounded-full py-3 px-6 md:mt-10 mt-5">
-            <button type="button" className="text-white">
+          <div className="border-none bg-gradient-to-br from-blue-500 to-blue-400 shadow-lg shadow-blue-400 mb-10 hover:scale-110 duration-300 md:w-[10vw] text-center rounded-full py-3 px-6 md:mt-10 mt-5 cursor-none">
+            <button type="button" className="text-white cursor-none">
               See More
             </button>
           </div>

@@ -63,7 +63,7 @@ const Commitments = () => {
                 accusantium laborum, nihil ex.
               </p>
             </div>
-            <a href="/" className="underline text-blue-600 text-xl">
+            <a href="/" className="underline text-blue-600 text-xl cursor-none">
               <pre>Learn More{" ->"}</pre>
             </a>
           </div>

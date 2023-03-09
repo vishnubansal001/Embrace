@@ -18,7 +18,7 @@ const Footer = () => {
               <img src={facebook} alt="" />
             </div>
             <div className="border-none bg-gradient-to-br from-blue-500 to-blue-400 shadow-lg shadow-blue-400 hover:scale-110 duration-300 text-center rounded-full py-3 px-6">
-              <button type="button" className="text-white">
+              <button type="button" className="text-white cursor-none">
                 Contact Us
               </button>
             </div>

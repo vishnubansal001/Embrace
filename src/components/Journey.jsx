@@ -12,7 +12,7 @@ const Journey = () => {
             </div>
             <div className='md:w-[50%] text-white flex flex-col gap-5'>
                 <p className='font-normal md:text-base text-sm'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae modi officiis molestias eos, doloribus fuga error deleniti commodi. Qui, quibusdam deleniti omnis illum commodi enim velit magni eius temporibus, harum inventore nobis. Aperiam molestiae dolores alias, iusto rem suscipit.</p>
-                <a href="/" className='underline'>Learn Now</a>
+                <a href="/" className='underline cursor-none'>Learn Now</a>
             </div>
         </div>
       </div>

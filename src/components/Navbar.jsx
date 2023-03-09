@@ -39,7 +39,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="border-none bg-blue-600 rounded-full py-3 px-6">
-            <button type="button" className="text-white">
+            <button type="button" className="text-white cursor-none">
               Try it Now
             </button>
           </div>
