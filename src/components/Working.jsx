@@ -15,7 +15,7 @@ const Working = () => {
               <h1 className="lg:text-5xl md:text-4xl text-3xl font-mono font-semibold">
                 How It Works
               </h1>
-              <p className="font-normal text-base sm:text-xs text-gray-600">
+              <p className="font-normal lg:text-base text-xs text-gray-600">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Reiciendis maiores aperiam obcaecati aspernatur laudantium sequi
                 eius nihil! Magni vero alias dolore architecto, ratione

@@ -1,4 +1,4 @@
-import { Commitments, Community, Hero, Navbar, Working } from "./components";
+import { Commitments, Community, Hero, Navbar, OurWork, Working } from "./components";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
         <Community/>
         <Commitments/>
         <Working/>
+        <OurWork/>
       </main>
     </>
   );
