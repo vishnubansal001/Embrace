@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+  overflow-x:hidden;
+}
+
 body::-webkit-scrollbar {
   scroll-behavior: smooth;
   scrollbar-width: thin;
