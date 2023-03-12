@@ -109,7 +109,7 @@ const FAQs = () => {
                 />
                 <button
                   type="button"
-                  className="py-3 px-2 w-[40%] text-sm md:text-base md:px-4 md:py-2 md:w-[40%] text-white bg-gradient-to-b from-blue-500 to-blue-500 rounded-full transition-all duration-200 active:scale-90 shadow-lg shadow-blue-400"
+                  className="cursor-none py-3 px-2 w-[40%] text-sm md:text-base md:px-4 md:py-2 md:w-[40%] text-white bg-gradient-to-b from-blue-500 to-blue-500 rounded-full transition-all duration-200 active:scale-90 shadow-lg shadow-blue-400"
                 >
                   Lets Talk
                 </button>
