@@ -27,7 +27,7 @@ const FAQs = () => {
                   src={plus}
                   alt=""
                   className={`hover:scale-110 transition-all duration-500 cursor-none ${
-                    btn1 && "rotate-45"
+                    btn1 && "rotate-45 cursor-none"
                   }`}
                   onClick={handleClick1}
                 />
@@ -50,7 +50,7 @@ const FAQs = () => {
                   src={plus}
                   alt=""
                   className={`hover:scale-110 transition-all duration-500 cursor-none ${
-                    btn2 && "rotate-45"
+                    btn2 && "rotate-45 cursor-none"
                   }`}
                   onClick={handleClick2}
                 />
@@ -74,7 +74,7 @@ const FAQs = () => {
                   src={plus}
                   alt=""
                   className={`hover:scale-110 transition-all duration-500 cursor-none ${
-                    btn3 && "rotate-45"
+                    btn3 && "rotate-45 cursor-none"
                   }`}
                   onClick={handleClick3}
                 />
